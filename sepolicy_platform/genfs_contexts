@@ -1,4 +1,4 @@
-genfscon sysfs /module/bcmdhd/parameters/firmware_path                           u:object_r:sysfs_wlan_fwpath:s0
+genfscon sysfs /module/brcmfmac/parameters/firmware_path                         u:object_r:sysfs_wlan_fwpath:s0
 
 genfscon sysfs /devices/platform/soc/soc:qcom,mdss_rotator                       u:object_r:sysfs_msm_subsys:s0
 genfscon sysfs /devices/platform/soc/7af6000.i2c                                 u:object_r:sysfs_msm_subsys:s0
@@ -14,7 +14,7 @@ genfscon sysfs /devices/platform/soc/1b1c000.qcom,jpeg                          
 genfscon sysfs /devices/platform/soc/1b00000.qcom,msm-cam                        u:object_r:sysfs_camera:s0
 
 genfscon sysfs /devices/platform/soc/soc:bcm43xx/rfkill/rfkill0/state            u:object_r:sysfs_bluetooth:s0
-genfscon sysfs /devices/platform/soc/soc:bcmdhd_wlan/macaddr                     u:object_r:sysfs_addrsetup:s0
+genfscon sysfs /devices/platform/soc/soc:brcmfmac/macaddr                        u:object_r:sysfs_addrsetup:s0
 genfscon sysfs /devices/platform/soc/soc:fpc1145                                 u:object_r:sysfs_fingerprint:s0
 
 genfscon sysfs /devices/platform/soc/7a24900.sdhci/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net                                     u:object_r:sysfs_net:s0
